@@ -14,19 +14,19 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #222;
-    --segundocolor: #666; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #aaa; /* más luminoso y menos saturado que el primero */
-    --colorclaro: rgba(255, 255, 255, 0.9);
-    --coloroscuro: rgba(0, 0, 0, 0.9);
+    --celeste: #4B94B9;
+    --rojo: #B51F1C; /* menos luminoso y más saturado que el primero */
+   /* --tercercolor: #aaa;  más luminoso y menos saturado que el primero */
+    --gris: rgba(66, 65, 65, 0.9);
+    --blanco: rgba(244, 244, 244, 0.9);
 }
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    background: var(--segundocolor);
-    color: var(--colorclaro);
+    background: var(--blanco;
+    color: var(--gris);
 }
 
 strong {
@@ -46,12 +46,12 @@ p.lead {
 }
 
 a {
-    color: var(--tercercolor);
+    color: var(--rojo);
     text-decoration: underline;
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(--celeste);
     text-decoration: none;
 }
 
@@ -69,12 +69,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--segundocolor);
+    background-color: var(--celeste);
     background-image: url("img/3x4 header-04.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(--celeste);
 }
 
 @media (min-width: 576px) {

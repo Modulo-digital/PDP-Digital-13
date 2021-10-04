@@ -25,8 +25,8 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: "Rubik", sans-serif;
     font-weight: 300;
-    background: var(--segundocolor);
-    color: var(--colorclaro);
+    background: var(--blanco);
+    color: var(--gris);
 }
 
 strong {

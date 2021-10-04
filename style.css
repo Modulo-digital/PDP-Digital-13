@@ -24,7 +24,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     background: var(--segundocolor);
     color: var(--colorclaro);
 }
@@ -42,7 +42,7 @@ h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: "Rubik", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 a {

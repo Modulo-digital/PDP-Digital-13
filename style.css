@@ -69,7 +69,7 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--celeste);
+    background-color: var(--celeste), linear-gradient(#4B94B9, #F4F4F4);
     background-image: url("img/3x4 header-04.png");
     background-position: center center;
     background-repeat: no-repeat;

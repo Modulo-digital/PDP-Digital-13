@@ -53,7 +53,7 @@ a {
 }
 
 a:hover {
-    color: var(--primercolor);
+    color: var(--colorclaro);
     text-decoration: none;
 }
 

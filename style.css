@@ -35,11 +35,10 @@ strong {
     font-weight: 700;
 }
 
-title {
+h1 {
     color: var(--primercolor);
 }
 
-h1,
 h2,
 h3,
 h4,

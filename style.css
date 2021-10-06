@@ -35,7 +35,19 @@ strong {
     font-weight: 700;
 }
 
-h2,
+h1 {
+    color: var(--primercolor);
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+h2 {
+    color: var(--primercolor);
+    font-weight: 300;
+    
+}
+
 h3,
 h4,
 h5,
@@ -44,13 +56,6 @@ p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-}
-
-h1 {
-    color: var(--primercolor);
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
-    font-size: large;
 }
 
 a {

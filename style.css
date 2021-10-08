@@ -53,8 +53,9 @@ p.lead {
 }
 
 a {
-    color: var(--tercercolor);
+    color: var(--coloroscuro);
     text-decoration: underline;
+    font-weight: 500;
 }
 
 a:hover {
